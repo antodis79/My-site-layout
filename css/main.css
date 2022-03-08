@@ -1,0 +1,58 @@
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+html {
+  background: url(../img/cristian-palmer-ig98EoFd-XY-unsplash.jpg);
+  height: 100%;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 6em;
+  font-size: 1em;
+  height: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}   
+
+.flex-container h1 {
+    font-size: 3em;
+}
+
+.flex-container p {
+    font-size: 2em;
+    text-align: left;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.div-1, .div-2, .div-3 {
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.5em;
+  height: 300px;
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+ text-align: center;
+}
+
+.copyright {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
